@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Basic HTML Tags</title>
+    <style>
+        #idtag{
+            color:darkmagenta;
+        }
+        table.collapsed {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table.collapsed th, table.collapsed td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table.normal {
+            width: 50%;
+            border: 1px solid black;
+        }
+
+        table.normal th, table.normal td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><center>BASIC HTML TAGS</center></h1>
+    <h2>HEADING TAGS</h2>
+    <h1>H1-Hello World</h1>
+    <h2>H2-Hello Wrold</h2>
+    <h3>H3-Hello World</h3>
+    <h4>H4-Hello World</h4>
+    <h5>H5-Hello World</h5>
+    <h6>H6-Hello World</h6>
+    <h1><center>BREAK & PARAGRAPH TAG</center></h1>
+    <p>HTML stands for Hypertext Markup language</p><br>
+    <p>HTML was developed by Tim Berners Lee</p><br>
+    <h1><center>HORIZONTAL RULE TAG</center></h1></hr>
+    <p><center>HTML</center></p><hr>
+    <p><center>Hypertext markup language</center></p>
+    <h1><center>PRESERVE FORMATTING TAG</center></h1>
+    <pre> function testFunction( strText ){
+        alert (strText)
+     }</pre>
+     <h1><center>NON-BREAKING SPACE TAG</center></h1>
+     <p>The term HTML was developed in the year&nbsp;1991</p><br>
+     <h1>LISTING TAGS</h1>
+     <h2>Unordered listing<br>
+    Ordered listing<br>
+</h2>
+<h2>Unordered list</h2>
+<ul type="disc">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<h2>Ordered list</h2>
+<ol type="1">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<h1><center>HTML Comments</center></h1>
+<!-- Single line ccomment-->
+<p>This is a single-line comment</p>
+<!-- Multiline comment-->
+<p>This is a Multi-line comment</p>
+<h1>HTML IMAGE TAG</h1><br>
+<img src="https://i.ytimg.com/vi/Vp7nW2SP6H8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDO2NDUjRyvSRoo-p3JlSMJ3t0tZw"alt="dog.jpg" width="400" height="300">
+<h1><center>Anchor tag</center></h1>
+<a href="https://www.geeksforgeeks.org/html-elements/?ref=lbp"><center>Link</center></a>
+<h1><center>HTML ATTRIBUTES</center></h1>
+<center><h2 style="color:red;">Style attributes</h2></center><br>   
+<h2><center>ID attributes</center></h2>
+<h3 id="#idtag">Welcome to Hypertext markup Language</h3>
+<h1><center>HTML Formatting Tags</center></h1>
+<h3><center>examples for Formatting Tags</center></h3>
+<p><b>This text is bold</b></p><br>
+<p><i>This text is Italic</i></p><br>
+<p><small>This text is small</small></p><br>
+<p><strong>This text is strong</strong></p><br>
+<p>I love <del>Hockey</del> cricket</p><br>
+<p><mark>I love cricket</mark></p><br>
+<p>w3 school is a <del>mathematical</del><ins> Computer</ins> portal</p><br>
+<p>X<sub>2</sub> + Y<sub>2</sub></p>
+<p>mc<sup>2</sup></p>
+<p><em>This is empathized text</em></p>
+<h1><center>HTML QUOTATIONS</center></h1>
+<p bdo dir="rtl">Hypertext Markup Language</p>
+<p><q>Hypertext Markup Language</q></p>
+<address>
+    <p>Address:<br>
+    JJ nagar,<br>
+Moolakulam,<br>
+Puducherry.</p>
+</address>
+<p> Welcome to <abbr title="Master of computer Applications">MCA</abbr></p>
+<h1><center>HTML COLORS</center></h1>
+<ul type="a">
+    <li>Background Color</li>
+    <li>Text Color</li>
+    <li>Border Color</li>
+    <li>Link Color</li>
+</ul>
+<h3 style="background-color:chartreuse">Hypertext Markup Language</h3>
+<h3 style="color:chocolate">Hypertext Markup Language</h3>
+<h3><a href="https://www.youtube.com/watch?v=GlEY28YLffs" style="color:blueviolet">Click Here</a></h3>
+<div style="border:2px solid black;">Hypertext Markup Language</div>
+<h1>HTML TABLES</h1>
+<h2>Adding a Border to an HTML Table</h2>
+<table class="normal">
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>PLACE</th>
+    </tr>
+    <tr>
+        <td>Shobana</td>
+        <td>22</td>
+        <td>Pondy</td>
+    </tr>
+    <tr>
+        <td>Shahitya</td>
+        <td>23</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Vijayalakshmi</td>
+        <td>25</td>
+        <td>Delhi</td>
+    </tr>
+    <tr>
+        <td>Vasuki</td>
+        <td>40</td>
+        <td>Pune</td>
+    </tr>
+</table>
+<h2>Adding Collapsed Borders in an HTML Table</h2>
+<table class="collapsed">
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>PLACE</th>
+    </tr>
+    <tr>
+        <td>Shobana</td>
+        <td>22</td>
+        <td>Pondy</td>
+    </tr>
+    <tr>
+        <td>Shahitya</td>
+        <td>23</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Vijayalakshmi</td>
+        <td>25</td>
+        <td>Delhi</td>
+    </tr>
+    <tr>
+        <td>Vasuki</td>
+        <td>40</td>
+        <td>Pune</td>
+    </tr>
+</table>
+<h2>HTML IFRAMES</h2>
+<iframe src="https://www.prepostseo.com/tool/decimal-to-ascii" width="600" height="400">Click Here</iframe><hr>
+<h2><center>HTML FORMS</center></h2><br><hr>
+<label for="name">NAME:</label>
+<input type="text" id="name" name="name" required/><br><br>
+<label for="email">E-MAIL:</label>
+<input type="email" id="email" name="email" required/><br><br>
+<label for="password">PASSWORD:</label>
+<input type="password" id="pass" name="pass" required/><br><br>
+<label for="confirm pass">CONFIRM PASSWORD:</label>
+<input type="pass" id="pass" name="pass" required/><br><br>
+<label for="number">PHONE NUMBER:</label>
+<input type="tel" id="tel" name="tel" required/><br><br>
+<label for="gender">GENDER:</label><br>
+<label for="gender">Male</label>
+<input type="radio" id="male" name="male" required/>
+<label for="gender">Female</label>
+<input type="radio" id="female" name="female" required/>
+<label for="others">Others</label>
+<input type="radio" id="others" name="others" required/><br><br>
+<label for="dob">DATE OF BIRTH:</label>
+<input type="date" id="dob" name="dob" required/><br><br>
+<label for="address">ADDRESS:</label>
+<textarea id="address" name="address" required/></textarea><br><br>
+<input type="submit" value="submit"/>
+</body>
+</html>
